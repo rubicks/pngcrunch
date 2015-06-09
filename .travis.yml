@@ -1,3 +1,5 @@
+# github.com/rubicks/pngcrunch/.travis.yml
+
 language: go
 
 go:
