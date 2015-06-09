@@ -56,3 +56,21 @@ somewhere, you can
 ### Use it
 
 Instructions forthcoming, I promise.
+
+### Dockerize it
+
+The `Dockerfile` for pngcrunch inherits from the
+[docker hub official repo for golang](https://registry.hub.docker.com/_/golang). After
+you
+
+    $ go get github.com/rubicks/pngcrunch
+
+you can
+
+    $ docker build -t pngcrunch-golang-app $GOPATH/src/github.com/rubicks/pngcrunch
+
+and
+
+    $ docker run -it --rm pngcrunch-golang-app
+
+just as you would normally.
