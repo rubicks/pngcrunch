@@ -71,6 +71,6 @@ you can
 
 and
 
-    $ docker run -it --rm pngcrunch-golang-app
+    $ docker run -it --rm pngcrunch-golang-app go test -v
 
 just as you would normally.
